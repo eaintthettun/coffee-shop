@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  body {
+    position: relative;
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-items {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background: rgb(247, 213, 170);
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 30px;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left top;
+  }
+  .show {
+    transform: scale(1);
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-btn-group {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .sale-count-group {
+    font-size: 20px;
+  }
+  .products-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
