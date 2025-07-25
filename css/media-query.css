@@ -6,18 +6,22 @@
     display: block;
     cursor: pointer;
   }
+  nav {
+    padding: 0px 10px;
+  }
   .nav-items {
     position: absolute;
     top: 90px;
     left: 0;
     right: 0;
-    background: rgb(247, 213, 170);
+    background: rgb(247, 205, 150);
     padding: 30px;
     flex-direction: column;
     border-radius: 30px;
     transform: scale(0);
     transition: 0.5s;
     transform-origin: left top;
+    z-index: 999;
   }
   .show {
     transform: scale(1);
@@ -31,6 +35,13 @@
   }
   .sale-count-group {
     font-size: 20px;
+  }
+  .banner-photo img {
+    height: 30vh;
+    margin-bottom: 70px;
+  }
+  .rotate-bar {
+    transform: rotate(0deg);
   }
   .products-section {
     flex-direction: column;
