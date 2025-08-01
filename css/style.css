@@ -185,14 +185,14 @@ section {
 }
 
 .product-card {
-  width: 100%;
+  width: 270px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #d4d1d1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 10px 0px;
+  padding: 10px 20px;
   transition: 0.5s;
 }
 
@@ -227,16 +227,93 @@ section {
 }
 
 .add-to-cart-section {
-  background: rgb(252, 241, 243);
+  background: rgb(248, 236, 218);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 10px;
   box-shadow: 2px 2px 4px #d4d1d1;
   border-radius: 10px;
+  width: 100%;
 }
 
 .add-to-cart-section div {
   display: flex;
   align-items: center;
+}
+.checkout-beans-section {
+  min-height: 60vh;
+}
+.row {
+  display: flex;
+  background: rgb(255, 225, 201);
+  border-radius: 20px;
+  padding: 30px;
+}
+.flex-1 {
+  flex: 1;
+}
+.col-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-secondary {
+  width: 43%;
+}
+.col-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #141e2773;
+}
+.weekend-special-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.weekend-special-row ul {
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+.weekend-special-row ul li:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.weekend-product-card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.weekend-products-menu {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.product-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.new-price {
+  font-size: 18px;
+  font-weight: bold;
 }

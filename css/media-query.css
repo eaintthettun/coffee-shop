@@ -47,4 +47,27 @@
     flex-direction: column;
     gap: 20px;
   }
+  .checkout-beans-section {
+    padding: 30px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .col-content {
+    align-items: flex-start;
+  }
+  .btn-secondary {
+    width: 80%;
+  }
+  .weekend-special-row ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .weekend-products-menu {
+    flex-direction: column;
+  }
 }
