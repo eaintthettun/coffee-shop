@@ -182,6 +182,8 @@ section {
   display: flex;
   gap: 20px;
   margin-top: 70px;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-card {
@@ -262,7 +264,8 @@ section {
   align-items: center;
 }
 .btn-secondary {
-  width: 43%;
+  width: 33%;
+  margin-top: 10px;
 }
 .col-photo {
   display: flex;
@@ -316,4 +319,39 @@ section {
 .new-price {
   font-size: 18px;
   font-weight: bold;
+}
+.advertise-svg-img {
+  width: 70px;
+}
+.quality-products-container {
+  display: flex;
+}
+
+.quality-products-image {
+  flex: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quality-products-image img {
+  width: 300px;
+}
+.quality-products-content {
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.quality-products-content.p {
+  margin-bottom: 20px;
+}
+.quality-advertise-row {
+  display: flex;
+  margin-top: 10px;
+}
+.quality-advertise-item {
+  display: flex;
+  gap: 10px;
 }

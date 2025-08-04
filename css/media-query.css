@@ -70,4 +70,14 @@
   .weekend-products-menu {
     flex-direction: column;
   }
+  .quality-products-container {
+    flex-direction: column;
+  }
+  .quality-products-content {
+    padding: 0;
+  }
+  .quality-advertise-row {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
