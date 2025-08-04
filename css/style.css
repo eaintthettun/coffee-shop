@@ -162,7 +162,7 @@ nav {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   box-shadow: 2px 2px 4px #d4d1d1;
   padding: 50px 70px;
 }
@@ -320,9 +320,7 @@ section {
   font-size: 18px;
   font-weight: bold;
 }
-.advertise-svg-img {
-  width: 70px;
-}
+
 .quality-products-container {
   display: flex;
 }
@@ -344,6 +342,10 @@ section {
   gap: 20px;
   padding: 20px;
 }
+.text-brown {
+  color: rgb(77, 41, 18);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .quality-products-content.p {
   margin-bottom: 20px;
 }
@@ -351,7 +353,84 @@ section {
   display: flex;
   margin-top: 10px;
 }
+.advertise-svg-img {
+  width: 70px;
+}
 .quality-advertise-item {
   display: flex;
   gap: 10px;
+}
+.quality-advertise-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer {
+  min-height: 80vh;
+}
+.newsletter-section {
+  min-height: 60vh;
+}
+.newsletter-container {
+  display: flex;
+  background: rgb(255, 231, 222);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+.newsletter-image {
+  width: 200px;
+  height: 200px;
+}
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.newsletter-form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.newsletter-input-group {
+  flex: 75%;
+  position: relative;
+}
+.newsletter-input-group img {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.subscribe-btn {
+  flex: 25%;
+  border: none;
+  outline: none;
+  background: rgb(82, 52, 24);
+  color: #fcfaef;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.subscribe-btn:hover {
+  background: rgb(114, 72, 33);
+}
+.newsletter-input-group input {
+  width: 100%;
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 4px #d4d1d1;
+  border-radius: 20px;
+}
+.newsletter-input-group::placeholder {
+  color: #707070;
 }
