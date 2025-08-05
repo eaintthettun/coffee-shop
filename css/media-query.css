@@ -80,12 +80,23 @@
     flex-direction: column;
     gap: 20px;
   }
+  .newsletter-section {
+    padding: 20px;
+  }
   .newsletter-container {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
   }
   .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-info-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-bar-section {
     flex-direction: column;
     gap: 10px;
   }
